@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivUno"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img02"/>
+
+    <ImageView
+        android:id="@+id/ivDos"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img03"/>
+    <ImageView
+        android:id="@+id/ivTres"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img04"/>
+    <ImageView
+        android:id="@+id/ivCuatro"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img05"/>
+    <ImageView
+        android:id="@+id/ivCinco"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img06"/>
+    <ImageView
+        android:id="@+id/ivSeis"
+        android:layout_margin="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img07"/>
+
+
+</LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Inicio"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
